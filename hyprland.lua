@@ -467,3 +467,4 @@ hl.window_rule({
 hl.bind(mainMod .. " + T", hl.dsp.workspace.toggle_special("thunardpad"))
 hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("spotipad"))
 hl.bind(mainMod .. " + B", hl.dsp.workspace.toggle_special("debug"))
+hl.bind(mainMod .. " + SHIFT + B", hl.dsp.window.move({ workspace = "special:debug" }))
