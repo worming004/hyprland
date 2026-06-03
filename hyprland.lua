@@ -22,7 +22,7 @@ hl.monitor({
 ----------------
 
 local terminal    = "kitty"
-local fileManager = "thunar"
+local fileManager = "dolphin"
 local menu        = "wofi --show drun --allow-images --insensitive --gtk-dark"
 
 ----------------
@@ -464,7 +464,7 @@ hl.window_rule({
 --- SCRATCHPADS
 ---------------
 
-hl.bind(mainMod .. " + T", hl.dsp.workspace.toggle_special("thunardpad"))
+hl.bind(mainMod .. " + T", hl.dsp.workspace.toggle_special("filepad"))
 hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("spotipad"))
 hl.bind(mainMod .. " + B", hl.dsp.workspace.toggle_special("debug"))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.window.move({ workspace = "special:debug" }))
