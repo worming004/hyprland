@@ -460,6 +460,13 @@ hl.window_rule({
   no_focus = true,
 })
 
+hl.window_rule({
+  float = true,
+  match = {
+    class = "imv"
+  }
+})
+
 ---------------
 --- SCRATCHPADS
 ---------------
