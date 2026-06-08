@@ -289,7 +289,7 @@ hl.bind(mainMod .. " + P",
 hl.bind(mainMod .. " + G",
   hl.dsp.layout("togglesplit"))
 
-hl.bind(mainMod .. " + L",
+hl.bind(mainMod .. " + SHIFT + L",
   hl.dsp.exec_cmd("hyprshot -m region"))
 
 ----------------
