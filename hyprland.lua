@@ -266,7 +266,7 @@ local mainMod = "ALT"
 
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 
-hl.bind(mainMod .. " + C",
+hl.bind(mainMod .. " + K",
   hl.dsp.window.close())
 
 hl.bind(mainMod .. " + SHIFT + M",
@@ -358,6 +358,8 @@ hl.bind(mainMod .. " + X", hl.dsp.workspace.move({ monitor = 0, follow = true })
 -- hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("hyprctl dispatch movecurrentworkspacetomonitor 1"))
 
 hl.bind(mainMod .. " + Z", hl.dsp.workspace.move({ monitor = 1, follow = true }))
+
+hl.bind(mainMod .. " + C", hl.dsp.workspace.move({ monitor = 2, follow = true }))
 
 ----------------
 -- SCROLL WS
