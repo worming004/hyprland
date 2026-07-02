@@ -266,7 +266,7 @@ local mainMod = "ALT"
 
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 
-hl.bind(mainMod .. " + K",
+hl.bind(mainMod .. " + W",
   hl.dsp.window.close())
 
 hl.bind(mainMod .. " + SHIFT + M",
