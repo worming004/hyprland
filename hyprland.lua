@@ -254,8 +254,8 @@ hl.config({
 })
 
 hl.device({
-  name        = "logitech-mx-anywhere-3",
-  sensitivity = -0.2,
+  name        = "logitech-g203-lightsync-gaming-mouse",
+  sensitivity = -0.2
 })
 
 ----------------
