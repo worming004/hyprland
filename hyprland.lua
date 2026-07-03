@@ -20,7 +20,7 @@ hl.monitor({
 hl.monitor({
   output   = "HDMI-A-2",
   mode     = "1920x1080",
-  position = "6880x650",
+  position = "6880x0",
   scale    = 1,
 })
 
@@ -45,7 +45,6 @@ hl.env("HYPRCURSOR_SIZE", "24")
 
 hl.on("hyprland.start", function()
   hl.exec_cmd("waybar")
-  hl.exec_cmd("hyprpaper")
   hl.exec_cmd("kitty", { workspace = "1" })
   -- workspaces seems not to work, commented out
   -- hl.exec_cmd("com.google.Chrome", { workspace = "8" })
@@ -228,7 +227,7 @@ hl.config({
 hl.config({
   misc = {
     force_default_wallpaper = -1,
-    disable_hyprland_logo   = false,
+    disable_hyprland_logo   = true,
   },
 })
 
