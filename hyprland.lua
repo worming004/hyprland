@@ -254,7 +254,7 @@ hl.config({
 
 hl.device({
   name        = "logitech-g203-lightsync-gaming-mouse",
-  sensitivity = -0.3
+  sensitivity = -0.6
 })
 
 ----------------
