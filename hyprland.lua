@@ -459,6 +459,7 @@ hl.window_rule({
 hl.window_rule({
   name = "fix-xwayland-drags",
 
+
   match = {
     class      = "^$",
     title      = "^$",
@@ -469,6 +470,11 @@ hl.window_rule({
   },
 
   no_focus = true,
+})
+
+hl.window_rule({
+  match = { class = ".*" },
+  persistent_size = true
 })
 
 hl.window_rule({
