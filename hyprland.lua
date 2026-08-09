@@ -30,7 +30,7 @@ hl.monitor({
 
 local terminal    = "kitty"
 local fileManager = "thunar"
-local menu        = "wofi --show drun --allow-images --insensitive --gtk-dark"
+local menu        = "wofi --show drun --allow-images --insensitive --gtk-dark --location top --margin-top 0 --margin-bottom 0"
 
 ----------------
 -- ENV
