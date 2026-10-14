@@ -297,6 +297,11 @@ hl.bind(mainMod .. " + G",
 hl.bind(mainMod .. " + SHIFT + L",
   hl.dsp.exec_cmd("hyprshot -m region"))
 
+-- Print Screen: region screenshot to clipboard + file
+hl.bind("Print", hl.dsp.exec_cmd("bash ~/.config/hypr/scripts/screenshot.sh"))
+-- Fallback if Print doesn't register
+-- hl.bind("PrtSc", hl.dsp.exec_cmd("bash ~/.config/hypr/scripts/screenshot.sh"))
+
 ----------------
 -- FOCUS
 ----------------
