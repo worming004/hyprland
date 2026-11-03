@@ -99,7 +99,7 @@ hl.config({
     glow             = {
       enabled      = true,
       range        = 2,
-      render_power = 10,
+      render_power = 4,
     }
   },
 
